@@ -1,0 +1,230 @@
+[15-Nov-2017 13:50:00 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:50:00 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:50:00 UTC] PHP Fatal error:  require(): Failed opening required '/home4/medabrim/public_html/wp-includes/load.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:51:18 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:51:18 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:51:18 UTC] PHP Fatal error:  require(): Failed opening required '/home4/medabrim/public_html/wp-includes/load.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:51:20 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:51:20 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:51:20 UTC] PHP Fatal error:  require(): Failed opening required '/home4/medabrim/public_html/wp-includes/load.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/medabrim/public_html/wp-settings.php on line 19
+[15-Nov-2017 13:52:54 UTC] PHP Warning:  require_once(/home4/medabrim/public_html/wp-includes/plugin.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 21
+[15-Nov-2017 13:52:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/home4/medabrim/public_html/wp-includes/plugin.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/medabrim/public_html/wp-settings.php on line 21
+[15-Nov-2017 14:21:48 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 226
+[15-Nov-2017 14:21:48 UTC] PHP Warning:  require(/home4/medabrim/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php): failed to open stream: No such file or directory in /home4/medabrim/public_html/wp-settings.php on line 226
+[15-Nov-2017 14:21:48 UTC] PHP Fatal error:  require(): Failed opening required '/home4/medabrim/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/medabrim/public_html/wp-settings.php on line 226
+[25-Nov-2017 00:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(32192, Object(SimplePie_Item), 724)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 32192, Object(SimplePie_Item), 724)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(32192, Object(SimplePie_Item), 724, '', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 724)
+#6 /home4/medabrim/public_html/wp in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[25-Nov-2017 06:30:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(32422, Object(SimplePie_Item), 724)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 32422, Object(SimplePie_Item), 724)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(32422, Object(SimplePie_Item), 724, '', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 724)
+#6 /home4/medabrim/public_html/wp in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[25-Nov-2017 08:15:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(32468, Object(SimplePie_Item), 931)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 32468, Object(SimplePie_Item), 931)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(32468, Object(SimplePie_Item), 931, '', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 931)
+#6 /home4/medabrim/public_html/wp in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[28-Nov-2017 03:09:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(33616, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 33616, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(33616, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[28-Nov-2017 05:51:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(33773, Object(SimplePie_Item), 661)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 33773, Object(SimplePie_Item), 661)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(33773, Object(SimplePie_Item), 661, 'https://carnews...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 661)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[30-Nov-2017 04:47:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(35304, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 35304, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(35304, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[05-Dec-2017 04:20:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(37931, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 37931, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(37931, Object(SimplePie_Item), 644, 'http://mo.techw...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[06-Dec-2017 03:08:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(38722, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 38722, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(38722, Object(SimplePie_Item), 644, 'http://mo.techw...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[07-Dec-2017 07:00:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(39538, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 39538, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(39538, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[08-Dec-2017 04:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(40279, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 40279, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(40279, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[09-Dec-2017 05:34:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(40837, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 40837, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(40837, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[12-Dec-2017 05:03:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(42605, Object(SimplePie_Item), 861)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 42605, Object(SimplePie_Item), 861)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(42605, Object(SimplePie_Item), 861, 'https://chinapo...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 861)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[15-Dec-2017 03:22:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(44632, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 44632, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(44632, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[18-Dec-2017 04:00:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(45954, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 45954, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(45954, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[20-Dec-2017 15:44:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(47804, Object(SimplePie_Item), 931)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 47804, Object(SimplePie_Item), 931)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(47804, Object(SimplePie_Item), 931, '', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 931)
+#6 /home4/medabrim/public_html/wp in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[25-Dec-2017 08:08:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(50323, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 50323, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(50323, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[26-Dec-2017 01:39:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(50619, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 50619, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(50619, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[27-Dec-2017 02:47:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(51356, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 51356, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(51356, Object(SimplePie_Item), 644, 'http://mo.techw...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[29-Dec-2017 02:25:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(52746, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 52746, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(52746, Object(SimplePie_Item), 644, 'http://mo.techw...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[29-Dec-2017 05:52:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(52932, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 52932, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(52932, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[29-Dec-2017 07:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(52964, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 52964, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(52964, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[29-Dec-2017 08:38:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(52991, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 52991, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(52991, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[02-Jan-2018 03:59:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(54259, Object(SimplePie_Item), 644)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 54259, Object(SimplePie_Item), 644)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(54259, Object(SimplePie_Item), 644, 'http://www.tech...', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 644)
+#6 /home4/medab in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690
+[02-Jan-2018 06:17:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::error() in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php:690
+Stack trace:
+#0 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(298): wprss_et_items_add_thumbnail_meta(54367, Object(SimplePie_Item), 931)
+#1 /home4/medabrim/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /home4/medabrim/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(611): do_action('wprss_items_cre...', 54367, Object(SimplePie_Item), 931)
+#4 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(565): wprss_items_insert_post_meta(54367, Object(SimplePie_Item), 931, '', '')
+#5 /home4/medabrim/public_html/wp-content/plugins/wp-rss-aggregator/includes/feed-importing.php(197): wprss_items_insert_post(Array, 931)
+#6 /home4/medabrim/public_html/wp in /home4/medabrim/public_html/wp-content/plugins/wp-rss-excerpts-thumbnails/wp-rss-excerpts-thumbnails.php on line 690

@@ -1,0 +1,486 @@
+# Translation of Plugins - Quotes Collection - Development (trunk) in Hebrew
+# This file is distributed under the same license as the Plugins - Quotes Collection - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-30 18:36:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: Plugins - Quotes Collection - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://srinig.com/"
+msgstr "http://srinig.com/"
+
+#. Author of the plugin/theme
+msgid "Srini G"
+msgstr "סריני ג. - תורגם על ידי טיילור ויג'יי"
+
+#. Description of the plugin/theme
+msgid "Quotes Collection plugin with Ajax powered Random Quote sidebar widget helps you collect and display your favourite quotes in your WordPress blog/website."
+msgstr "תוסף אוסף הציטוטים הכולל הצגת ציטוט רנדומלי באג'קס מאפשר לך לאסוף ולהציג את הציטוטים האהובים עליך באתר הוורדפרס שלך. "
+
+#. Plugin URI of the plugin/theme
+msgid "http://srinig.com/wordpress/plugins/quotes-collection/"
+msgstr "http://srinig.com/wordpress/plugins/quotes-collection/"
+
+#. Plugin Name of the plugin/theme
+msgid "Quotes Collection"
+msgstr "אוסף ציטוטים"
+
+#: inc/class-quotes-collection.php:104
+msgid "Next quote &raquo;"
+msgstr "ציטוט הבא &laquo;"
+
+#: inc/class-quotes-collection.php:83
+msgid "Error getting quote"
+msgstr "שגיאה בטעינת הציטוט"
+
+#: inc/class-quotes-collection.php:82
+msgid "Loading..."
+msgstr "טוען..."
+
+#: inc/class-quotes-collection-widget.php:93
+#: inc/class-quotes-collection-widget.php:197
+msgid "none"
+msgstr "ריק"
+
+#: inc/class-quotes-collection-widget.php:161
+msgid "Character limit"
+msgstr "מספר תווים מקסימלי"
+
+#: inc/class-quotes-collection-widget.php:157
+msgid "Comma separated"
+msgstr "מופרד בפסיקים"
+
+#: inc/class-quotes-collection-widget.php:155
+msgid "Tags filter"
+msgstr "מסנן תגיות"
+
+#: inc/class-quotes-collection-widget.php:150
+msgid "every %s sec"
+msgstr "כל %s שניות"
+
+#: inc/class-quotes-collection-widget.php:148
+msgid "Auto refresh"
+msgstr "עדכון תצוגה אוטומטי"
+
+#: inc/class-quotes-collection-widget.php:143
+msgid "Unchecking this will rotate quotes in the order added, latest first."
+msgstr "סימון אפשרות זו יגרום לציטוטים להופיע לפי סדר ההוספה מהאחרון לראשון."
+
+#: inc/class-quotes-collection-widget.php:142
+msgid "Random refresh"
+msgstr "עדכון רנדומלי"
+
+#: inc/class-quotes-collection-widget.php:137
+msgid "Advanced options"
+msgstr "אפשרויות מתקדמות"
+
+#: inc/class-quotes-collection-widget.php:134
+msgid "Refresh feature"
+msgstr "רענן תכונה זו"
+
+#: inc/class-quotes-collection-widget.php:129
+msgid "Show source?"
+msgstr "הצג מקור"
+
+#: inc/class-quotes-collection-widget.php:124
+msgid "Show author?"
+msgstr "הצג כותב"
+
+#: inc/class-quotes-collection-widget.php:118
+msgid "Title"
+msgstr "כותרת"
+
+#: inc/class-quotes-collection-widget.php:41
+#: inc/class-quotes-collection-widget.php:83
+#: inc/class-quotes-collection-widget.php:209
+msgid "Random Quote"
+msgstr "ציטוט אקראי"
+
+#: inc/class-quotes-collection-widget.php:18
+msgctxt "widget description"
+msgid "Random quote from your quotes collection"
+msgstr "ציטוט רנדומלי מאוסף הציטוטים שלך"
+
+#: inc/class-quotes-collection-widget.php:17
+msgctxt "widget name"
+msgid "Random Quote"
+msgstr "ציטוט רנדומלי"
+
+#: inc/class-quotes-collection-shortcode.php:204
+msgid "Goto page:"
+msgstr "עבור לעמוד מספר:"
+
+#: inc/class-quotes-collection-shortcode.php:200
+msgid "Go to the last page"
+msgstr "עבור לעמוד האחרון"
+
+#: inc/class-quotes-collection-shortcode.php:198
+msgid "Go to the next page"
+msgstr "עבור לעמוד הבא"
+
+#: inc/class-quotes-collection-shortcode.php:194
+msgid "Go to the previous page"
+msgstr "עבור לעמוד הקודם"
+
+#: inc/class-quotes-collection-shortcode.php:192
+msgid "Go to the first page"
+msgstr "עבור לעמוד הראשון"
+
+#: inc/class-quotes-collection-admin.php:841
+msgctxt "confirmation dialog button text"
+msgid "No"
+msgstr "לא"
+
+#: inc/class-quotes-collection-admin.php:840
+msgctxt "confirmation dialog button text"
+msgid "Yes"
+msgstr "כן"
+
+#: inc/class-quotes-collection-admin.php:839
+msgctxt "confirmation dialog text for deleting multiple quotes"
+msgid "Are you sure you want to delete these quotes?"
+msgstr "האם אתה בטוח שברצונך למחוק ציטוטים אלה?"
+
+#: inc/class-quotes-collection-admin.php:838
+msgctxt "confirmation dialog text for deleting a single quote"
+msgid "Are you sure you want to delete this quote?"
+msgstr "האם אתה בטוח שברצונך למחוק ציטוט זה?"
+
+#: inc/class-quotes-collection-admin.php:837
+msgctxt "confirmation dialog title"
+msgid "Delete?"
+msgstr "האם למחוק?"
+
+#: inc/class-quotes-collection-admin.php:807
+msgid "Maximum items"
+msgstr "מקסימום פריטים"
+
+#: inc/class-quotes-collection-admin.php:791
+msgid "Options not updated"
+msgstr "ההגדרות לא עודכנו"
+
+#: inc/class-quotes-collection-admin.php:788
+msgid "Options updated"
+msgstr "ההגדרות עודכנו"
+
+#: inc/class-quotes-collection-admin.php:783
+msgid "No change in values. Options not updated."
+msgstr "לא נעשו שינויים כלשהם בהגדרות. ההגדרות לא עודכנו. "
+
+#: inc/class-quotes-collection-admin.php:744
+msgid "Nothing to export"
+msgstr "אין מה לייצא"
+
+#: inc/class-quotes-collection-admin.php:724
+msgid "One quote imported"
+msgid_plural "%d quotes imported"
+msgstr[0] "ציטוט אחד יובא"
+msgstr[1] "%d ציטוטים יובאו"
+
+#: inc/class-quotes-collection-admin.php:720
+msgid "No quotes imported"
+msgstr "לא יובאו ציטוטים כלשהם"
+
+#: inc/class-quotes-collection-admin.php:717
+#: inc/class-quotes-collection-admin.php:731
+msgid "Import failed. Please try again."
+msgstr "הייבוא נכשל. נסה שנית. "
+
+#: inc/class-quotes-collection-admin.php:709
+msgid "Error in JSON file"
+msgstr "שגיאה בקובץ ה JSON"
+
+#: inc/class-quotes-collection-admin.php:704
+msgid "The file uploaded was empty"
+msgstr "הקובץ שהעלית ריק מתוכן"
+
+#: inc/class-quotes-collection-admin.php:696
+msgid "The file you uploaded is too big. Import failed."
+msgstr "הקובץ שניסית להעלות גדול מדי. הייבוא נכשל. "
+
+#: inc/class-quotes-collection-admin.php:690
+msgid "Invalid file format"
+msgstr "פורמט הקובץ שגוי"
+
+#: inc/class-quotes-collection-admin.php:684
+msgid "Please choose a file to upload before you hit the 'Import' button"
+msgstr "נא לבחור קובץ להעלאה לפני שלוחצים על כפתור ה'ייבוא'"
+
+#: inc/class-quotes-collection-admin.php:668
+msgid "Quote kept private"
+msgid_plural "%d quotes kept private"
+msgstr[0] "הציטוט הוגדר כפרטי"
+msgstr[1] "%d ציטוטים הוגדרו כפרטיים"
+
+#: inc/class-quotes-collection-admin.php:659
+#: inc/class-quotes-collection-admin.php:672
+msgid "Error. Privacy status not changed."
+msgstr "שגיאה. הגדרות הפרטיות לא שונו. "
+
+#: inc/class-quotes-collection-admin.php:655
+msgid "Quote made public"
+msgid_plural "%d quotes made public"
+msgstr[0] "הציטוט הוגדר כציבורי"
+msgstr[1] "%d ציטוטים הוגדרו כציבוריים"
+
+#: inc/class-quotes-collection-admin.php:645
+msgid "Error deleting quotes"
+msgstr "שגיאה במחיקת ציטוטים"
+
+#: inc/class-quotes-collection-admin.php:641
+msgid "One quote deleted"
+msgid_plural "%d quotes deleted"
+msgstr[0] "ציטוט אחד נמחק"
+msgstr[1] "%d ציטוטים נמחקו"
+
+#: inc/class-quotes-collection-admin.php:637
+#: inc/class-quotes-collection-admin.php:651
+#: inc/class-quotes-collection-admin.php:664
+msgid "No item selected"
+msgstr "לא נבחרו פריטים"
+
+#: inc/class-quotes-collection-admin.php:632
+msgid "Error deleting quote"
+msgstr "שגיאה במחיקת ציטוט"
+
+#: inc/class-quotes-collection-admin.php:630
+msgid "Quote deleted"
+msgstr "הציטוט נמחק"
+
+#: inc/class-quotes-collection-admin.php:600
+msgid "Error updating quote"
+msgstr "שגיאה בעדכון ציטוט"
+
+#: inc/class-quotes-collection-admin.php:596
+msgid "Changes saved"
+msgstr "השינויים נשמרו"
+
+#: inc/class-quotes-collection-admin.php:584
+msgid "Error adding quote"
+msgstr "שגיאה בהוספת ציטוט"
+
+#: inc/class-quotes-collection-admin.php:580
+msgid "Quote added"
+msgstr "הציטוט נוסף"
+
+#: inc/class-quotes-collection-admin.php:577
+#: inc/class-quotes-collection-admin.php:593
+msgid "The quote field cannot be blank. Fill up the quote field and try again."
+msgstr "חובה למלא את שדה הציטוט. מלא את השדה ונסה שנית. "
+
+#: inc/class-quotes-collection-admin.php:505
+msgid "comma separated"
+msgstr "מופרד בפסיקים"
+
+#: inc/class-quotes-collection-admin.php:504
+msgid "optional"
+msgstr "אופציונלי"
+
+#: inc/class-quotes-collection-admin.php:503
+msgid "Public?"
+msgstr "ציבורי?"
+
+#: inc/class-quotes-collection-admin.php:470
+#: inc/class-quotes-collection-admin.php:573
+msgctxt "submit button text"
+msgid "Add Quote"
+msgstr "הוספת ציטוט"
+
+#: inc/class-quotes-collection-admin.php:385
+msgid "All Quotes"
+msgstr "כל הציטוטים"
+
+#: inc/class-quotes-collection-admin.php:357
+#: inc/class-quotes-collection-admin.php:616
+msgctxt "submit button text"
+msgid "Update Options"
+msgstr "עדכן הגדרות"
+
+#: inc/class-quotes-collection-admin.php:354
+msgid "Check this if your site is cached and the 'random quote' widget always shows a particular quote as the initial quote."
+msgstr "סמן תיבה זו אם האתר משתמש במנגנון קאשינג והוידג'ט תמיד מציג את אותו ציטוט."
+
+#: inc/class-quotes-collection-admin.php:351
+msgid "Dynamically fetch the first random quote in widget?"
+msgstr "להציג ציטוט רנדומלי בוידג'ט הציטוטים?"
+
+#: inc/class-quotes-collection-admin.php:347
+msgid "Maximum number of iterations for auto-refresh"
+msgstr "מספר איטרציות מקסימלי לריענון אוטומטי"
+
+#: inc/class-quotes-collection-admin.php:343
+msgid "Refresh link text"
+msgstr "רענן טקסט קישור"
+
+#: inc/class-quotes-collection-admin.php:296
+#: inc/class-quotes-collection-admin.php:610
+msgctxt "submit button text"
+msgid "Export"
+msgstr "ייצוא"
+
+#: inc/class-quotes-collection-admin.php:291
+msgid "When you click the button below, a <abbr title=\"JavaScript Object Notation\">JSON</abbr> file with the entire collection of quotes will be created, that you can save to your computer."
+msgstr "לאחר הלחיצה על הכפתור, קובץ ה <abbr title=\"JavaScript Object Notation\">JSON</abbr> ייווצר. לאחר מכן תוכל להוריד את הקובץ למחשב שלך. "
+
+#: inc/class-quotes-collection-admin.php:269
+#: inc/class-quotes-collection-admin.php:604
+msgctxt "submit button text"
+msgid "Import"
+msgstr "ייבוא"
+
+#: inc/class-quotes-collection-admin.php:264
+msgid "Choose a file to upload:"
+msgstr "בחר קובץ להעלאה:"
+
+#: inc/class-quotes-collection-admin.php:259
+msgid "Browse and choose a <abbr title=\"JavaScript Object Notation\">JSON</abbr> (.json) file to upload, then click the 'Import' button."
+msgstr "לחץ על הכפתור ובחר קובץ <abbr title=\"JavaScript Object Notation\">JSON</abbr> (.json) להעלאה. לאחר מכן לחץ כפתור ה'ייבוא'."
+
+#: inc/class-quotes-collection-admin.php:224
+msgid "Search"
+msgstr "חיפוש"
+
+#: inc/class-quotes-collection-admin.php:208
+msgctxt "list meta, above the quotes list table in the main admin page"
+msgid "Search results for \"%s\""
+msgstr "תוצאות חיפוש עבור  \"%s\""
+
+#: inc/class-quotes-collection-admin.php:202
+msgctxt "list meta, above the quotes list table in the main admin page"
+msgid "Private"
+msgstr "פרטי"
+
+#: inc/class-quotes-collection-admin.php:197
+msgctxt "list meta, above the quotes list table in the main admin page"
+msgid "Public"
+msgstr "ציבורי"
+
+#: inc/class-quotes-collection-admin.php:192
+msgctxt "list meta, above the quotes list table in the main admin page"
+msgid "All Quotes"
+msgstr "כל הציטוטים"
+
+#: inc/class-quotes-collection-admin.php:161
+#: inc/class-quotes-collection-admin.php:389
+msgctxt "submenu item text"
+msgid "Edit Quote"
+msgstr "עריכת ציטוט"
+
+#: inc/class-quotes-collection-admin.php:154
+#: inc/class-quotes-collection-admin.php:487
+#: inc/class-quotes-collection-admin.php:589
+msgctxt "submit button text"
+msgid "Save Changes"
+msgstr "שמירת שינויים"
+
+#: inc/class-quotes-collection-admin.php:120
+msgctxt "submenu item text"
+msgid "All Quotes"
+msgstr "כל הציטוטים"
+
+#: inc/class-quotes-collection-admin.php:111
+#: inc/class-quotes-collection-admin.php:408
+msgctxt "submenu item text"
+msgid "Options"
+msgstr "הגדרות"
+
+#: inc/class-quotes-collection-admin.php:110
+#: inc/class-quotes-collection-admin.php:366
+msgctxt "heading"
+msgid "Quotes Collection Options"
+msgstr "הגדרות לאוסף הציטוטים"
+
+#: inc/class-quotes-collection-admin.php:100
+#: inc/class-quotes-collection-admin.php:402
+msgctxt "submenu item text"
+msgid "Export"
+msgstr "ייצוא"
+
+#: inc/class-quotes-collection-admin.php:99
+#: inc/class-quotes-collection-admin.php:306
+msgctxt "heading"
+msgid "Export Quotes"
+msgstr "ייצוא ציטוטים"
+
+#: inc/class-quotes-collection-admin.php:89
+#: inc/class-quotes-collection-admin.php:399
+msgctxt "submenu item text"
+msgid "Import"
+msgstr "ייבוא"
+
+#: inc/class-quotes-collection-admin.php:88
+#: inc/class-quotes-collection-admin.php:278
+msgctxt "heading"
+msgid "Import Quotes"
+msgstr "ייבוא ציטוטים"
+
+#: inc/class-quotes-collection-admin.php:78
+#: inc/class-quotes-collection-admin.php:393
+msgctxt "submenu item text"
+msgid "Add New"
+msgstr "הוסף חדש"
+
+#: inc/class-quotes-collection-admin.php:77
+#: inc/class-quotes-collection-admin.php:245
+msgctxt "heading"
+msgid "Add New Quote"
+msgstr "הוסף ציטוט חדש"
+
+#: inc/class-quotes-collection-admin-list-table.php:147
+msgid "Keep private"
+msgstr "השאר כפרטי"
+
+#: inc/class-quotes-collection-admin-list-table.php:146
+msgid "Make public"
+msgstr "הפוך לציבורי"
+
+#: inc/class-quotes-collection-admin-list-table.php:129
+msgid "Date"
+msgstr "תאריך"
+
+#: inc/class-quotes-collection-admin-list-table.php:128
+#: inc/class-quotes-collection-admin.php:502
+msgid "Tags"
+msgstr "תגיות"
+
+#: inc/class-quotes-collection-admin-list-table.php:127
+#: inc/class-quotes-collection-admin.php:501
+msgid "Source"
+msgstr "מקור"
+
+#: inc/class-quotes-collection-admin-list-table.php:127
+#: inc/class-quotes-collection-admin.php:500
+msgid "Author"
+msgstr "כותב"
+
+#: inc/class-quotes-collection-admin-list-table.php:126
+#: inc/class-quotes-collection-admin.php:499
+msgid "Quote"
+msgstr "ציטוט"
+
+#: inc/class-quotes-collection-admin-list-table.php:125
+msgid "ID"
+msgstr "מזהה"
+
+#: inc/class-quotes-collection-admin-list-table.php:110
+msgid "Public"
+msgstr "ציבורי"
+
+#: inc/class-quotes-collection-admin-list-table.php:110
+msgid "Private"
+msgstr "פרטי"
+
+#: inc/class-quotes-collection-admin-list-table.php:65
+#: inc/class-quotes-collection-admin-list-table.php:145
+msgid "Delete"
+msgstr "מחק"
+
+#: inc/class-quotes-collection-admin-list-table.php:64
+msgid "Edit"
+msgstr "ערוך"

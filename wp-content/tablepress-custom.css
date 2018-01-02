@@ -1,0 +1,13 @@
+.tablepress {
+/*CSS applying to all tables on the website */
+	direction: ltr;
+}
+
+.dataTables_paginate.paging_simple {
+	direction: ltr;
+}
+
+.tablepress .tablepress-id-1 thead th .tablepress tfoot th,
+.tablepress thead th {
+	text-align: center;
+}

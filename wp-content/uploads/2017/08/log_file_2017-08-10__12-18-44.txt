@@ -1,0 +1,78 @@
+
+---Downloaded files---
+The import files for: Demo Import 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8080/mysite
+Data file = /opt/lampp/htdocs/mysite/wp-content/uploads/2017/08/demo-content-import-file_2017-08-10__12-18-44.xml
+Widget file = /opt/lampp/htdocs/mysite/wp-content/uploads/2017/08/demo-widgets-import-file_2017-08-10__12-18-44.json
+Customizer file = /opt/lampp/htdocs/mysite/wp-content/uploads/2017/08/demo-customizer-import-file_2017-08-10__12-18-44.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar widget area : 
+
+Search - Search - Widget already exists
+Archives - No Title - Imported
+Categories - No Title - Imported
+
+Call to action top widget area : 
+
+WBR : Call To Action Top - No Title - Imported
+
+Homepage service section - sidebar : 
+
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+
+Homepage project section - sidebar : 
+
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+
+Homepage news section - sidebar : 
+
+WBR : Recent News Widget - Latest News - Imported
+
+Footer widget area : 
+
+WBR : Sidebar Latest News - Latest News - Imported
+Tag Cloud - Tag Cloud - Imported
+Text - Contact Info - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
